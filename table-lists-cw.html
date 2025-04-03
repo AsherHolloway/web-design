@@ -2,17 +2,19 @@
 
 <html>
 
-<header>
+  <header>
 
-<title>Tables and Lists Starter Code</title>
+    <title>Tables and Lists Starter Code</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- ass a list for w3css styling -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-<!-- add a link for Google Material Icons -->
 
-<header>
+  <header>
 
 <body>
 
@@ -24,7 +26,7 @@
   
     <p>The <b>w3-table</b> class defines a basic table:</p>
   
-    <table>
+    <table class="w3-table">
   
       <tr>
   
@@ -80,7 +82,7 @@
   
     <p>The <b>w3-border</b> class defines a bordered table, this tag has to be used after <b>w3-table</b>, <b>w3-center</b> class will center table content:</p>
   
-    <table>
+    <table class="w3-table w3-bordered w3-centered">
   
       <tr>
   
@@ -136,7 +138,7 @@
   
    <p>The <b>w3-striped</b> class defines a striped table, <b>w3-bordered</b> class places borders around each cell:</p>
   
-    <table>
+    <table class="w3-table w3-striped w3-bordered">
   
       <tr>
   
@@ -192,7 +194,7 @@
   
     <p>The <b>w3-table-all</b> class sets all properties: borders and stripes.</p>
   
-    <table>
+    <table class="w3-table w3-table-all">
   
       <tr>
   
@@ -248,9 +250,9 @@
   
     <p>The <b>w3-hoverable</b> class sets allows for color change on hover.  To change color of the header or any other element, just add class <b>w3-color</b> to that element. </p>
   
-    <table>
+    <table class="w3-table-all w3-hoverable">
   
-      <tr>
+      <tr class="w3-blue">
   
         <th>First Name</th>
   
@@ -260,7 +262,7 @@
   
       </tr>
   
-      <tr>
+      <tr class="w3-hover-yellow">
   
         <td>Jill</td>
   
@@ -270,7 +272,7 @@
   
       </tr>
   
-      <tr>
+      <tr class="w3-hover-pale-red">
   
         <td>Eve</td>
   
@@ -280,7 +282,7 @@
   
       </tr>
   
-      <tr>
+      <tr class="w3-hover-pale-blue">
   
         <td>Adam</td>
   
@@ -304,9 +306,9 @@
   
     <p>You can add all the styling to the list just like we did with the table.  In this list we will practice adding different elements.</p>
   
-    <ul>
+    <ul class="w3-ul w3-border w3-padding w3-hoverable" style="width:50%">
   
-      <li><h2>Popular Sports in St. Louis</h2></li>
+      <li class="w3-sand"><h2>Popular Sports in St. Louis</h2></li>
   
       <li>Baseball</li>
   
@@ -334,7 +336,7 @@
   
     <p>You can add all the styling to the list just like we did with the table.  In this list we will practice adding different elements.</p>
   
-    <ul>
+    <ul class="w3-ul w3-bordered w3-hoverable w3-padding-16">
   
        <li><h2>Popular Sports in St. Louis</h2></li>
   
@@ -342,7 +344,10 @@
   
       <li>    Hockey</li>
   
-      <li>    Soccer</li>
+      <li>
+        <span class="material-icons">
+          sports_soccer
+          </span> Soccer</li>
   
       <li>     Golf</li>
   
@@ -357,5 +362,6 @@
   <hr>
   
   </body>
+  <footer>Asher Holloway, 2025</footer>
 
 </html>
