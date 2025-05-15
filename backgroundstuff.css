@@ -4,3 +4,16 @@
 body {
     background-color: #c3c1b2;
 }
+
+.final{
+    background-color:#beaca7;
+    outline-style:solid;
+    outline-width:2px;
+    outline-color: black;
+}
+.final:hover {
+    background-color:#c3c1b2;
+    outline-style:solid;
+    outline-width:2px;
+    outline-color: black;
+}
