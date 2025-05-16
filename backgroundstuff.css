@@ -17,3 +17,8 @@ body {
     outline-width:2px;
     outline-color: black;
 }
+iframe{
+    outline-style:solid;
+    outline-width:5px;
+    outline-color: #beaca7;
+}
